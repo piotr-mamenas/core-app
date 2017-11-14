@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>eCorp.KeyTrade.Core.Domain</AssemblyName>
     <RootNamespace>eCorp.KeyTrade.Core.Domain</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Enums\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
 

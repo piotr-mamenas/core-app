@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace eCorp.KeyTrade.Core.Domain
+namespace eCorp.KeyTrade.Core.Domain.Models
 {
     public class BaseEntity
     {
