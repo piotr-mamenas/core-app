@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D74856A5-1006-44FE-80EC-C49EC0B899C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Domain", "Core\Core.Domain\Core.Domain.csproj", "{5560ECEA-D73A-4115-BFD0-D295CA7FB251}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7909332B-B9C2-43BD-85E7-9369BF0ED1FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{AE2D0203-4E22-481C-AAF6-B949DD377755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CDC755AE-5A6C-4B43-A1EA-1C824CE688D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5560ECEA-D73A-4115-BFD0-D295CA7FB251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5560ECEA-D73A-4115-BFD0-D295CA7FB251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5560ECEA-D73A-4115-BFD0-D295CA7FB251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5560ECEA-D73A-4115-BFD0-D295CA7FB251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5560ECEA-D73A-4115-BFD0-D295CA7FB251} = {D74856A5-1006-44FE-80EC-C49EC0B899C5}
+	EndGlobalSection
+EndGlobal
