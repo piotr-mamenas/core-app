@@ -1,9 +1,9 @@
 ﻿using System;
-using eCorp.KeyTrade.Core.Domain.Models.Currencies;
+using eCorp.KeyTrade.Core.Domain.Aggregates.Currencies;
 
-namespace eCorp.KeyTrade.Core.Domain.Models.Assets
+namespace eCorp.KeyTrade.Core.Domain.Aggregates.Assets
 {
-    public class AssetPrice
+    public class AssetPrice : Entity
     {
         public Currency Currency { get; set; }
 

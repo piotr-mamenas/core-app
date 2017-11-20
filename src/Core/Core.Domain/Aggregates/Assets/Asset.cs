@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using eCorp.KeyTrade.Core.Domain.Interfaces;
 
-namespace eCorp.KeyTrade.Core.Domain.Models.Assets
+namespace eCorp.KeyTrade.Core.Domain.Aggregates.Assets
 {
-    public class Asset
+    public class Asset : Entity, IAggregateRoot
     {
         public string Name { get; set; }
 
