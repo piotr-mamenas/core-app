@@ -14,9 +14,4 @@
     <ProjectReference Include="..\..\Core\Core.Domain\Core.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EventHandlers\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
